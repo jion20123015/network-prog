@@ -1,0 +1,86 @@
+body{
+    background: rgb(221, 241, 246);
+    }
+    h2{
+    color: rgb(255, 254, 255);
+    }
+    .contact-us{
+     width: 450px;
+     background:#16a6f9;
+     padding: 50px;
+     margin: 100px auto;
+     border-radius: 30px;
+     position: relative;
+    }
+    .social-icon{
+     position: absolute;
+     top: 300px;
+     left: 50%;
+     transform: translateX(-200%);
+     width: 300px;
+     display: flex;
+    }
+    .social-icon div{
+    width: 160px;
+    height: 80px;
+    border-radius: 10%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 15px;
+    }
+    
+.social-icon div a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(16, 70, 159);
+    font-size: 13px;
+}
+.social-icon div.home{
+    background: #9fe0ff;
+}
+.social-icon div.research{
+background: #9fcdff;
+}
+.social-icon div.contact{
+background: #9fafff;
+}
+img:hover{
+opacity: 0.5;
+cursor: pointer;
+}
+img{
+border-radius: 200%;
+}
+.form, .form-item{
+    top: 20px;
+    width: 100%;
+}
+.form-item .input{
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        border: none;
+        padding: 25px 40px;
+        box-sizing: border-box;
+        background: rgb(300, 237, 234); 
+}
+.form-item{
+    position: relative;
+}
+.form-item .fas{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+    .btn{
+    text-align: center;
+        width: 95%;
+        background: #3c6b3a;
+        border-radius: 20px;
+        padding: 10px 6px;
+        color: #f8faf0;
+        cursor: pointer;
+        margin: 10px;
+    }        
